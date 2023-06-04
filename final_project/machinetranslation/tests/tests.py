@@ -12,6 +12,6 @@ class TestE2F(unittest.TestCase):
 class TestF2e(unittest.TestCase):
     def test2(self):
         self.assertEqual(french_to_english('Bonjour'), 'Hello')
-        self.assertNotEqual(french_to_english('Hello'), 'Konnichiwa')
+        self.assertNotEqual(french_to_english('Bonjour'), 'Konnichiwa')
 
 unittest.main()
